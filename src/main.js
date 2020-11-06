@@ -7,6 +7,7 @@ import 'api/axios';
 import 'css/base/base.less';
 import 'css/base/element_theme.scss';
 Vue.mixin(mixins);
+
 Vue.config.productionTip = false;
 //注册element-ui组件
 import { Button } from 'element-ui';
