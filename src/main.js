@@ -16,6 +16,7 @@ const components = [Button];
 for (let k of components) {
   Vue.use(k);
 }
+
 new Vue({
   router,
   store,
